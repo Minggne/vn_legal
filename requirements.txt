@@ -1,0 +1,21 @@
+# Giao diện web
+streamlit
+
+# Vector database và truy xuất dense/sparse
+qdrant-client
+
+# Embedding BGE-M3 và reranker
+FlagEmbedding
+torch
+numpy
+
+# Đọc dữ liệu Hugging Face và Parquet cho ingestion
+datasets
+huggingface-hub
+pyarrow
+pandas
+
+# Gọi Ollama qua HTTP và backend Claude tùy chọn
+requests
+anthropic
+
