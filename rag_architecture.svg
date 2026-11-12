@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 980" width="1100" height="980" role="img" aria-label="Chatbot hỏi đáp luật Việt Nam dựa trên RAG" xmlns:c2pa="http://c2pa.org/manifest">
+<defs>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="rgba(11,18,32,0.06)"/></pattern>
+<radialGradient id="r1" cx="25%" cy="0%" r="60%"><stop offset="0" stop-color="#0891B2" stop-opacity=".16"/><stop offset="1" stop-color="#0891B2" stop-opacity="0"/></radialGradient>
+<radialGradient id="r2" cx="80%" cy="30%" r="55%"><stop offset="0" stop-color="#6D28D9" stop-opacity=".14"/><stop offset="1" stop-color="#6D28D9" stop-opacity="0"/></radialGradient>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#0891B2"/><stop offset="1" stop-color="#6D28D9"/></linearGradient>
+<filter id="b3" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3"/></filter>
+<filter id="b8" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="b12" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect width="1100" height="980" fill="#EDF2F9"/><rect width="1100" height="980" fill="url(#grid)"/><rect width="1100" height="980" fill="url(#r1)"/><rect width="1100" height="980" fill="url(#r2)"/>
+<rect x="450" y="34" width="200" height="30" rx="15" fill="#0891B2" fill-opacity=".12" stroke="rgba(8,145,178,0.40)"/>
+<circle cx="474" cy="49" r="3.5" fill="#0891B2"/>
+<text x="488" y="53.5" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="12" font-weight="500" letter-spacing="1.6" fill="#0891B2">RAG · LEGAL AI</text>
+<text x="550" y="120" text-anchor="middle" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="40" font-weight="600" fill="#0B1220">Chatbot hỏi đáp luật <tspan fill="url(#g)">Việt Nam</tspan></text>
+<text x="550" y="167" text-anchor="middle" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="40" font-weight="600" fill="#0B1220">dựa trên RAG</text>
+<text x="550" y="198" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#56637A">hybrid retrieval → rerank → grounded answer</text>
+<rect x="40" y="220" width="460" height="482" rx="16" fill="none" stroke="#0891B2" stroke-opacity=".35" stroke-width="3" filter="url(#b12)"/>
+<rect x="40" y="220" width="460" height="482" rx="16" fill="#F9FBFE" fill-opacity=".88" stroke="rgba(8,145,178,0.40)" stroke-width="1.2"/>
+<text x="64" y="248" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11.5" font-weight="500" letter-spacing="1.4" fill="#0891B2">PIPELINE 01</text>
+<text x="476" y="248" text-anchor="end" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11.5" letter-spacing="1.4" fill="#56637A">INGESTION</text>
+<circle cx="392" cy="244" r="3" fill="#0891B2" filter="url(#b3)"/>
+<text x="64" y="282" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#0B1220">Pipeline nạp dữ liệu</text>
+<rect x="64" y="310" width="412" height="56" rx="10" fill="#FFFFFF" stroke="rgba(8,145,178,0.40)" stroke-width="1.2"/>
+<rect x="78" y="326" width="34" height="24" rx="6" fill="none" stroke="rgba(8,145,178,0.40)"/>
+<text x="95.0" y="342" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="12" font-weight="500" fill="#0891B2">01</text>
+<text x="132" y="334" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#0B1220">Bộ dữ liệu luật</text>
+<rect x="132" y="342" width="94" height="18" rx="4" fill="#0891B2" opacity=".13"/>
+<text x="139" y="355" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#56637A">Hugging Face</text>
+<line x1="97" y1="366" x2="97" y2="382" stroke="#0891B2" stroke-opacity=".6" stroke-width="1.4"/>
+<polygon points="93.5,381 100.5,381 97,387" fill="#0891B2"/>
+<rect x="64" y="388" width="412" height="56" rx="10" fill="#FFFFFF" stroke="rgba(8,145,178,0.40)" stroke-width="1.2"/>
+<rect x="78" y="404" width="34" height="24" rx="6" fill="none" stroke="rgba(8,145,178,0.40)"/>
+<text x="95.0" y="420" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="12" font-weight="500" fill="#0891B2">02</text>
+<text x="132" y="412" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#0B1220">Kiểm tra &amp; xử lý dữ liệu</text>
+<rect x="132" y="420" width="182" height="18" rx="4" fill="#0891B2" opacity=".13"/>
+<text x="139" y="433" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#56637A">Datasets · Beautiful Soup</text>
+<line x1="97" y1="444" x2="97" y2="460" stroke="#0891B2" stroke-opacity=".6" stroke-width="1.4"/>
+<polygon points="93.5,459 100.5,459 97,465" fill="#0891B2"/>
+<rect x="64" y="466" width="412" height="56" rx="10" fill="#FFFFFF" stroke="rgba(8,145,178,0.40)" stroke-width="1.2"/>
+<rect x="78" y="482" width="34" height="24" rx="6" fill="none" stroke="rgba(8,145,178,0.40)"/>
+<text x="95.0" y="498" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="12" font-weight="500" fill="#0891B2">03</text>
+<text x="132" y="490" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#0B1220">Parsing &amp; Chunking</text>
+<rect x="132" y="498" width="202" height="18" rx="4" fill="#0891B2" opacity=".13"/>
+<text x="139" y="511" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#56637A">Chương → Điều → Khoản → Điểm</text>
+<line x1="270" y1="522" x2="270" y2="533" stroke="#0891B2" stroke-opacity=".6" stroke-width="1.4"/>
+<line x1="164" y1="533" x2="376" y2="533" stroke="#0891B2" stroke-opacity=".6" stroke-width="1.4"/>
+<line x1="164" y1="533" x2="164" y2="539" stroke="#0891B2" stroke-opacity=".6" stroke-width="1.4"/>
+<polygon points="160.5,538 167.5,538 164,544" fill="#0891B2"/>
+<line x1="376" y1="533" x2="376" y2="539" stroke="#0891B2" stroke-opacity=".6" stroke-width="1.4"/>
+<polygon points="372.5,538 379.5,538 376,544" fill="#0891B2"/>
+<rect x="64" y="544" width="200" height="56" rx="10" fill="#FFFFFF" stroke="rgba(8,145,178,0.40)" stroke-width="1.2"/>
+<rect x="78" y="560" width="38" height="24" rx="6" fill="none" stroke="rgba(8,145,178,0.40)"/>
+<text x="97.0" y="576" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="12" font-weight="500" fill="#0891B2">04A</text>
+<text x="126" y="568" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#0B1220">Dense embedding</text>
+<rect x="126" y="576" width="88" height="18" rx="4" fill="#0891B2" opacity=".13"/>
+<text x="133" y="589" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#56637A">BAAI/bge-m3</text>
+<rect x="276" y="544" width="200" height="56" rx="10" fill="#FFFFFF" stroke="rgba(8,145,178,0.40)" stroke-width="1.2"/>
+<rect x="290" y="560" width="38" height="24" rx="6" fill="none" stroke="rgba(8,145,178,0.40)"/>
+<text x="309.0" y="576" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="12" font-weight="500" fill="#0891B2">04B</text>
+<text x="338" y="568" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#0B1220">Sparse vector</text>
+<rect x="338" y="576" width="41" height="18" rx="4" fill="#0891B2" opacity=".13"/>
+<text x="345" y="589" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#56637A">BM25</text>
+<line x1="164" y1="600" x2="164" y2="611" stroke="#0891B2" stroke-opacity=".6" stroke-width="1.4"/><line x1="376" y1="600" x2="376" y2="611" stroke="#0891B2" stroke-opacity=".6" stroke-width="1.4"/><line x1="164" y1="611" x2="376" y2="611" stroke="#0891B2" stroke-opacity=".6" stroke-width="1.4"/>
+<line x1="270" y1="611" x2="270" y2="617" stroke="#0891B2" stroke-opacity=".6" stroke-width="1.4"/>
+<polygon points="266.5,616 273.5,616 270,622" fill="#0891B2"/>
+<rect x="64" y="622" width="412" height="56" rx="10" fill="#0891B2" opacity=".22" filter="url(#b8)"/>
+<rect x="64" y="622" width="412" height="56" rx="10" fill="#FFFFFF" stroke="#0891B2" stroke-width="1.2"/>
+<rect x="78" y="638" width="34" height="24" rx="6" fill="none" stroke="rgba(8,145,178,0.40)"/>
+<text x="95.0" y="654" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="12" font-weight="500" fill="#0891B2">05</text>
+<text x="132" y="646" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#0B1220">Qdrant Vector Database</text>
+<rect x="132" y="654" width="148" height="18" rx="4" fill="#0891B2" opacity=".13"/>
+<text x="139" y="667" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#56637A">dense + sparse index</text>
+<rect x="40" y="726" width="460" height="214" rx="16" fill="#F9FBFE" fill-opacity=".88" stroke="rgba(8,145,178,0.40)" stroke-width="1.2"/>
+<text x="64" y="758" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11.5" font-weight="500" letter-spacing="1.4" fill="#0891B2">TECH STACK</text>
+<text x="64" y="792" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="10.5" letter-spacing="1.2" fill="#56637A">EMBEDDING</text>
+<text x="64" y="812" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="500" fill="#0B1220">BAAI/bge-m3</text>
+<text x="276" y="792" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="10.5" letter-spacing="1.2" fill="#56637A">SPARSE</text>
+<text x="276" y="812" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="500" fill="#0B1220">BM25</text>
+<text x="64" y="840" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="10.5" letter-spacing="1.2" fill="#56637A">VECTOR DB</text>
+<text x="64" y="860" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="500" fill="#0B1220">Qdrant</text>
+<text x="276" y="840" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="10.5" letter-spacing="1.2" fill="#56637A">RERANKER</text>
+<text x="276" y="860" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="500" fill="#0B1220">BGE-Reranker-v2-M3</text>
+<text x="64" y="888" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="10.5" letter-spacing="1.2" fill="#56637A">LLM</text>
+<text x="64" y="908" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="500" fill="#0B1220">Qwen3:4B</text>
+<text x="276" y="888" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="10.5" letter-spacing="1.2" fill="#56637A">UI</text>
+<text x="276" y="908" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="500" fill="#0B1220">Streamlit</text>
+<rect x="600" y="220" width="460" height="716" rx="16" fill="none" stroke="#6D28D9" stroke-opacity=".35" stroke-width="3" filter="url(#b12)"/>
+<rect x="600" y="220" width="460" height="716" rx="16" fill="#F9FBFE" fill-opacity=".88" stroke="rgba(109,40,217,0.40)" stroke-width="1.2"/>
+<text x="624" y="248" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11.5" font-weight="500" letter-spacing="1.4" fill="#6D28D9">PIPELINE 02</text>
+<text x="1036" y="248" text-anchor="end" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11.5" letter-spacing="1.4" fill="#56637A">INFERENCE</text>
+<circle cx="952" cy="244" r="3" fill="#6D28D9" filter="url(#b3)"/>
+<text x="624" y="282" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#0B1220">Pipeline trả lời câu hỏi</text>
+<rect x="624" y="310" width="412" height="56" rx="10" fill="#FFFFFF" stroke="rgba(109,40,217,0.40)" stroke-width="1.2"/>
+<rect x="638" y="326" width="34" height="24" rx="6" fill="none" stroke="rgba(109,40,217,0.40)"/>
+<text x="655.0" y="342" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="12" font-weight="500" fill="#6D28D9">01</text>
+<text x="692" y="334" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#0B1220">Giao diện người dùng</text>
+<rect x="692" y="342" width="74" height="18" rx="4" fill="#6D28D9" opacity=".13"/>
+<text x="699" y="355" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#56637A">Streamlit</text>
+<line x1="657" y1="366" x2="657" y2="382" stroke="#6D28D9" stroke-opacity=".6" stroke-width="1.4"/>
+<polygon points="653.5,381 660.5,381 657,387" fill="#6D28D9"/>
+<rect x="624" y="388" width="412" height="56" rx="10" fill="#FFFFFF" stroke="rgba(109,40,217,0.40)" stroke-width="1.2"/>
+<rect x="638" y="404" width="34" height="24" rx="6" fill="none" stroke="rgba(109,40,217,0.40)"/>
+<text x="655.0" y="420" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="12" font-weight="500" fill="#6D28D9">02</text>
+<text x="692" y="412" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#0B1220">Query</text>
+<rect x="692" y="420" width="101" height="18" rx="4" fill="#6D28D9" opacity=".13"/>
+<text x="699" y="433" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#56637A">user question</text>
+<line x1="657" y1="444" x2="657" y2="460" stroke="#6D28D9" stroke-opacity=".6" stroke-width="1.4"/>
+<polygon points="653.5,459 660.5,459 657,465" fill="#6D28D9"/>
+<rect x="624" y="466" width="412" height="56" rx="10" fill="#FFFFFF" stroke="rgba(109,40,217,0.40)" stroke-width="1.2"/>
+<rect x="638" y="482" width="34" height="24" rx="6" fill="none" stroke="rgba(109,40,217,0.40)"/>
+<text x="655.0" y="498" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="12" font-weight="500" fill="#6D28D9">03</text>
+<text x="692" y="490" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#0B1220">Hybrid Retrieval</text>
+<rect x="692" y="498" width="248" height="18" rx="4" fill="#6D28D9" opacity=".13"/>
+<text x="699" y="511" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#56637A">Qdrant · BGE-M3 Dense + BM25 Sparse</text>
+<line x1="657" y1="522" x2="657" y2="538" stroke="#6D28D9" stroke-opacity=".6" stroke-width="1.4"/>
+<polygon points="653.5,537 660.5,537 657,543" fill="#6D28D9"/>
+<rect x="624" y="544" width="412" height="56" rx="10" fill="#FFFFFF" stroke="rgba(109,40,217,0.40)" stroke-width="1.2"/>
+<rect x="638" y="560" width="34" height="24" rx="6" fill="none" stroke="rgba(109,40,217,0.40)"/>
+<text x="655.0" y="576" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="12" font-weight="500" fill="#6D28D9">04</text>
+<text x="692" y="568" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#0B1220">Reciprocal Rank Fusion</text>
+<rect x="692" y="576" width="34" height="18" rx="4" fill="#6D28D9" opacity=".13"/>
+<text x="699" y="589" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#56637A">RRF</text>
+<line x1="657" y1="600" x2="657" y2="616" stroke="#6D28D9" stroke-opacity=".6" stroke-width="1.4"/>
+<polygon points="653.5,615 660.5,615 657,621" fill="#6D28D9"/>
+<rect x="624" y="622" width="412" height="56" rx="10" fill="#FFFFFF" stroke="rgba(109,40,217,0.40)" stroke-width="1.2"/>
+<rect x="638" y="638" width="34" height="24" rx="6" fill="none" stroke="rgba(109,40,217,0.40)"/>
+<text x="655.0" y="654" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="12" font-weight="500" fill="#6D28D9">05</text>
+<text x="692" y="646" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#0B1220">Reranker</text>
+<rect x="692" y="654" width="135" height="18" rx="4" fill="#6D28D9" opacity=".13"/>
+<text x="699" y="667" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#56637A">BGE-Reranker-v2-M3</text>
+<line x1="657" y1="678" x2="657" y2="694" stroke="#6D28D9" stroke-opacity=".6" stroke-width="1.4"/>
+<polygon points="653.5,693 660.5,693 657,699" fill="#6D28D9"/>
+<rect x="624" y="700" width="412" height="56" rx="10" fill="#FFFFFF" stroke="rgba(109,40,217,0.40)" stroke-width="1.2"/>
+<rect x="638" y="716" width="34" height="24" rx="6" fill="none" stroke="rgba(109,40,217,0.40)"/>
+<text x="655.0" y="732" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="12" font-weight="500" fill="#6D28D9">06</text>
+<text x="692" y="724" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#0B1220">Context Construction</text>
+<rect x="692" y="732" width="148" height="18" rx="4" fill="#6D28D9" opacity=".13"/>
+<text x="699" y="745" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#56637A">legal context window</text>
+<line x1="657" y1="756" x2="657" y2="772" stroke="#6D28D9" stroke-opacity=".6" stroke-width="1.4"/>
+<polygon points="653.5,771 660.5,771 657,777" fill="#6D28D9"/>
+<rect x="624" y="778" width="412" height="56" rx="10" fill="#FFFFFF" stroke="rgba(109,40,217,0.40)" stroke-width="1.2"/>
+<rect x="638" y="794" width="34" height="24" rx="6" fill="none" stroke="rgba(109,40,217,0.40)"/>
+<text x="655.0" y="810" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="12" font-weight="500" fill="#6D28D9">07</text>
+<text x="692" y="802" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#0B1220">LLM Generation &amp; Citation Validation</text>
+<rect x="692" y="810" width="68" height="18" rx="4" fill="#6D28D9" opacity=".13"/>
+<text x="699" y="823" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#56637A">Qwen3:4B</text>
+<line x1="657" y1="834" x2="657" y2="850" stroke="#6D28D9" stroke-opacity=".6" stroke-width="1.4"/>
+<polygon points="653.5,849 660.5,849 657,855" fill="#6D28D9"/>
+<rect x="624" y="856" width="412" height="56" rx="10" fill="#6D28D9" opacity=".22" filter="url(#b8)"/>
+<rect x="624" y="856" width="412" height="56" rx="10" fill="#FFFFFF" stroke="#6D28D9" stroke-width="1.2"/>
+<rect x="638" y="872" width="34" height="24" rx="6" fill="none" stroke="rgba(109,40,217,0.40)"/>
+<text x="655.0" y="888" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="12" font-weight="500" fill="#6D28D9">08</text>
+<text x="692" y="880" font-family="'Be Vietnam Pro','Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#0B1220">Final Answer</text>
+<rect x="692" y="888" width="121" height="18" rx="4" fill="#6D28D9" opacity=".13"/>
+<text x="699" y="901" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#56637A">grounded + cited</text>
+<path d="M476 650 H550 V494 H610" fill="none" stroke="#0891B2" stroke-width="1.6" stroke-dasharray="6 5"/>
+<polygon points="610,489 620,494 610,499" fill="#0891B2"/>
+<text transform="translate(538 572) rotate(-90)" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="10" letter-spacing="1.2" fill="#56637A">VECTOR DB → RETRIEVAL</text>
+<text x="550" y="968" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,Menlo,monospace" font-size="11" letter-spacing="2.4" fill="#56637A">BGE-M3 · BM25 · QDRANT · QWEN3</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpiYzNjNGI3NS04ZTRiLTQ3NzEtOTEzNy1mMjNkNmI3N2M3N2MAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaDhVsLI4tOveJKlEb12uLcsAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpmY2FmMTQxYy1mYjIyLTQ3YTktYjYyOS0zZmFhN2JkOGNiNjRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoPBiw8rgBJYnWE4QAXcMiVAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggqLx6/0/SZm18F6a8FlDePXRY6jgUGvcNh6SEiAlVx9ekZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaMT43RmdKdxQco3UISmlKLEAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIC60fL8HKlgj4ECDkvFef9gY/dA2/CRlgnfXJ0HxKB2gZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GVFMZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmJjM2M0Yjc1LThlNGItNDc3MS05MTM3LWYyM2Q2Yjc3Yzc3Yy9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmRjOTI4ZTZlLThiMTctNGFkMi05N2E3LTA5ODUyOGIxOWFiZHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCovHr/T9JmbXwXprwWUN49dFjqOBQa9w2HpISICVXH16JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg5BxRgChp44TKqLpjL1uqeP4vtaUjxJyS/CTwyQZiXJWiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggGzPrblOeOTs4yLQjwDueWoAImo6cyzRDvAOQT0LDhWx0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQIdLb0IDd1X00valYj6HfoUdRtSHBN3USvvPL4heeob3Pi03UdVcVUZmv2FpOJDN0o41rXjSkFYNyGMqEDtDJdQ=</c2pa:manifest></metadata></svg>
