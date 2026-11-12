@@ -89,11 +89,9 @@ python retrieval/eval_retrival.py
 | Hybrid Search | 0.82 | 0.67 | 2.39 |
 | Hybrid + Reranking | **0.85** | **0.80** | **1.46** |
 
-*Kết quả cho thấy Hybrid Search kết hợp Reranking cải thiện hiệu quả truy xuất so với việc sử dụng riêng Dense hoặc Sparse Search.*
-
 *Hạng TB: Thứ hạng trung bình của tài liệu liên quan trong kết quả truy xuất.*
 
 ---
 
-**Project:** Vietnamese Legal QA Chatbot  
+**Project:** Vietnamese Legal Q&A Chatbot  
 **Architecture:** Retrieval-Augmented Generation (RAG)
